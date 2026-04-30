@@ -9,7 +9,6 @@ import HeroBillboardRotatedCarousel from '@/components/sections/hero/HeroBillboa
 import MetricCardTwo from '@/components/sections/metrics/MetricCardTwo';
 import NavbarStyleCentered from '@/components/navbar/NavbarStyleCentered/NavbarStyleCentered';
 import PricingCardThree from '@/components/sections/pricing/PricingCardThree';
-import TestimonialCardThirteen from '@/components/sections/testimonial/TestimonialCardThirteen';
 import TextAbout from '@/components/sections/about/TextAbout';
 
 export default function LandingPage() {
@@ -61,7 +60,7 @@ export default function LandingPage() {
         {
           id: "3",          imageSrc: "http://img.b2bpic.net/free-photo/blurred-night-lights_23-2148139308.jpg",          imageAlt: "futuristic interface elements"},
         {
-          id: "4",          imageSrc: "http://img.b2bpic.net/free-photo/driver-view-car-interior-hand-steering-wheel-speed-motion_169016-68523.jpg",          imageAlt: "dashboard ui design"},
+          id: "4",          imageSrc: "http://img.b2bpic.net/driver-view-car-interior-hand-steering-wheel-speed-motion_169016-68523.jpg",          imageAlt: "dashboard ui design"},
         {
           id: "5",          imageSrc: "http://img.b2bpic.net/free-photo/abstract-technology-background-connecting-dots-digital-network-design_53876-160190.jpg",          imageAlt: "digital network connections"},
         {
@@ -138,34 +137,6 @@ export default function LandingPage() {
       ]}
       title="Transparent Pricing"
       description="Simple, impactful pricing for your digital success."
-    />
-  </div>
-
-  <div id="testimonials" data-section="testimonials">
-      <TestimonialCardThirteen
-      animationType="slide-up"
-      textboxLayout="split"
-      useInvertedBackground={false}
-      testimonials={[
-        {
-          id: "1",          name: "Sarah J.",          handle: "@partner",          testimonial: "Jupiter X solutions provided the innovation we needed. Highly professional and seamless delivery.",          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/snarling-angry-man_1154-81.jpg"},
-        {
-          id: "2",          name: "Michael K.",          handle: "@cto",          testimonial: "Extremely well-structured process. The team really understood our complex technical needs.",          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/positive-confident-businessman-posing-outside_74855-1183.jpg"},
-        {
-          id: "3",          name: "Emily R.",          handle: "@marketing",          testimonial: "Our growth has tripled since the redesign. The strategy was flawless.",          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/portrait-young-confident-businessman-wearing-glasses_158595-5353.jpg"},
-        {
-          id: "4",          name: "David L.",          handle: "@product",          testimonial: "Professional, creative, and fast. The communication throughout was excellent.",          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/portrait-optimistic-businessman-formalwear_1262-3600.jpg"},
-        {
-          id: "5",          name: "Alex T.",          handle: "@ceo",          testimonial: "Their insight into digital growth is unparalleled. A true partner for our scaling journey.",          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/startup-worker-uses-laptop-open-space-reviewing-project-data-documents-workstation-executive-assistant-working-marketing-strategy-business-development-ai-developer_482257-65810.jpg"},
-      ]}
-      showRating={true}
-      title="Partner Experiences"
-      description="See why our partners choose Jupiter X Solutions."
     />
   </div>
 
